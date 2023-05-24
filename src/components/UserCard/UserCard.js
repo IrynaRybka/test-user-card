@@ -15,7 +15,6 @@ import {
   BackgroundImg,
   TweetSpan,
   FollowSpan,
-  Rectangle,
   DefaultAvatar,
   EllipseImg,
   LoadMoreBtn,
@@ -82,7 +81,6 @@ export const UserCard = props => {
             <LogoIcon id="icon-logo" />
             <BackgroundImg src={background} alt="background" />
             <ContentContainer>
-              <Rectangle />
               {!avatar ? (
                 <DefaultAvatar src={Boy} alt="avatar" width={80} height={80} />
               ) : (

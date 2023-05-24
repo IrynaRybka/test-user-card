@@ -46,6 +46,18 @@ export const ContentContainer = styled.div`
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+
+  &::before {
+    content: "";
+    display: block;
+    width: 380px;
+    height: 8px;
+    margin-top: 18px;
+    box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+    inset 0px -2.19582px 4.39163px #ae7be3,
+    inset 0px 4.39163px 3.29372px #fbf8ff;
+    background-color: #ebd8ff;
+  }
 `;
 export const AvatarImg = styled.img`
   height: 62px; //62px
@@ -66,16 +78,16 @@ export const EllipseImg = styled.img`
   margin-top: -68px;
 
 `
-export const Rectangle = styled.div`
-z-index: -1;
-  width: 380px;
-  height: 8px;
-  margin-top: 18px;
-  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
-    inset 0px -2.19582px 4.39163px #ae7be3,
-    inset 0px 4.39163px 3.29372px #fbf8ff;
-  background-color: #ebd8ff;
-`;
+// export const Rectangle = styled.div`
+// z-index: -1;
+//   width: 380px;
+//   height: 8px;
+//   margin-top: 18px;
+//   box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
+//     inset 0px -2.19582px 4.39163px #ae7be3,
+//     inset 0px 4.39163px 3.29372px #fbf8ff;
+//   background-color: #ebd8ff;
+// `;
 
 export const DefaultAvatar = styled.img`
   margin-left: auto;
