@@ -64,7 +64,7 @@ export const AvatarImg = styled.img`
   top:50%;
 left:50%;
 transform:translate(-50%, -50%);
-  height: 62px; //62px
+  height: 62px; 
   width: 62px;
   object-fit: cover;
   /* margin-left: auto;
@@ -74,7 +74,6 @@ transform:translate(-50%, -50%);
   box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
     inset 0px -2.19582px 4.39163px #ae7be3,
     inset 0px 4.39163px 3.29372px #fbf8ff;
-  /* margin-top: -34px; */
 `;
 export const RingImg = styled.div`
   position: relative;

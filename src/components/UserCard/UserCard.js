@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import background from '../../images/backgroundImg.png';
 import Boy from '../../images/Boy.png';
-import ellipse from '../../images/Ellipse.png';
+// import ellipse from '../../images/Ellipse.png';
 
 import {
   AvatarImg,
@@ -16,7 +16,7 @@ import {
   TweetSpan,
   FollowSpan,
   DefaultAvatar,
-  EllipseImg,
+  // EllipseImg,
   LoadMoreBtn,
   ContainerLoadMore,
   DescrP,
