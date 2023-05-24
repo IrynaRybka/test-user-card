@@ -20,6 +20,7 @@ import {
   LoadMoreBtn,
   ContainerLoadMore,
   DescrP,
+  RingImg,
 } from './UserCard.styled';
 
 const initFollowers = 100500;
@@ -84,10 +85,10 @@ export const UserCard = props => {
               {!avatar ? (
                 <DefaultAvatar src={Boy} alt="avatar" width={80} height={80} />
               ) : (
-                <div style={{ marginBottom: 26 }}>
+                <RingImg style={{ marginBottom: 26 }}>
                   <AvatarImg src={avatar} alt={user} width={62} height={62} />
-                  <EllipseImg src={ellipse} alt="frame for avatar" width={80} />
-                </div>
+                  {/* <EllipseImg src={ellipse} alt="frame for avatar" width={80} /> */}
+                </RingImg>
               )}
               <TweetP>
                 <TweetSpan>{tweets}</TweetSpan>

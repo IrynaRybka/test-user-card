@@ -48,36 +48,52 @@ export const ContentContainer = styled.div`
   text-align: center;
 
   &::before {
-    content: "";
+    content: '';
     display: block;
     width: 380px;
     height: 8px;
     margin-top: 18px;
     box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
-    inset 0px -2.19582px 4.39163px #ae7be3,
-    inset 0px 4.39163px 3.29372px #fbf8ff;
+      inset 0px -2.19582px 4.39163px #ae7be3,
+      inset 0px 4.39163px 3.29372px #fbf8ff;
     background-color: #ebd8ff;
   }
 `;
 export const AvatarImg = styled.img`
+  position: absolute;
+  top:50%;
+left:50%;
+transform:translate(-50%, -50%);
   height: 62px; //62px
   width: 62px;
   object-fit: cover;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
   background: #ebd8ff;
   border-radius: 50%;
   box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
     inset 0px -2.19582px 4.39163px #ae7be3,
     inset 0px 4.39163px 3.29372px #fbf8ff;
-  margin-top: -34px;
+  /* margin-top: -34px; */
 `;
-export const EllipseImg = styled.img`
+export const RingImg = styled.div`
+  position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -68px;
+  box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06), inset 0px -2.19582px 4.39163px #AE7BE3, inset 0px 4.39163px 3.29372px #FBF8FF;
+  background-color: #ebd8ff;
+  content: '';
+  width: 80px;
+  height: 80px;
+  margin-top: -40px;
+  border-radius: 50%;
+`;
+// export const EllipseImg = styled.img`
+//   margin-left: auto;
+//   margin-right: auto;
+//   margin-top: -68px;
 
-`
+// `
 // export const Rectangle = styled.div`
 // z-index: -1;
 //   width: 380px;
@@ -131,44 +147,42 @@ export const FollowSpan = styled.span`
   margin-right: 5px;
 `;
 export const ContainerLoadMore = styled.div`
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    align-content: center;
-    justify-content: center;
-`
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+`;
 export const DescrP = styled.p`
-width: 100%;
-text-align: center;
-`
+  width: 100%;
+  text-align: center;
+`;
 
 export const LoadMoreBtn = styled.button`
-    padding: 8px 16px;
-    border-radius: 10px;
-    background-color: #3f51b5;
-    transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    text-align: center;
-    color: #fff;
-    border: 0;
-    display: block;
-    cursor: pointer;
-    font-family: inherit;
-    font-size: 18px;
-    line-height: 1.2;
-    font-weight: 500;
-    min-width: 180px;
-    box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
-      0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-    margin-top: 20px;
-    margin-bottom: 30px;
-    margin-right: auto;
-    margin-left: auto;
-  
+  padding: 8px 16px;
+  border-radius: 10px;
+  background-color: #3f51b5;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  color: #fff;
+  border: 0;
+  display: block;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 500;
+  min-width: 180px;
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
 
-    &:hover,
-    &:focus {
-      background-color: #303f9f;
-    }
-
-`
+  &:hover,
+  &:focus {
+    background-color: #303f9f;
+  }
+`;
