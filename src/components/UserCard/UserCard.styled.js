@@ -117,7 +117,8 @@ export const FollowBtn = styled.button`
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  
+
+  /* &:active, */
   &:hover,
   &:focus {
     background-color: #5cd3a8;

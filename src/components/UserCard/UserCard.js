@@ -103,9 +103,9 @@ export const UserCard = props => {
               <FollowBtn
                 type="button"
                 onClick={() => handleFollowClick(id)}
-                style={{
-                  backgroundColor: isFollowing[id] ? '#5cd3a8' : '#ebd8ff',
-                }}
+                // style={{
+                //   backgroundColor: isFollowing[id] ? '#5cd3a8' : '#ebd8ff',
+                // }}
               >
                 {isFollowing[id] ? 'Following' : 'Follow'}
               </FollowBtn>
