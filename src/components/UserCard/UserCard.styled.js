@@ -91,18 +91,8 @@ export const RingImg = styled.div`
 //   margin-left: auto;
 //   margin-right: auto;
 //   margin-top: -68px;
-
 // `
-// export const Rectangle = styled.div`
-// z-index: -1;
-//   width: 380px;
-//   height: 8px;
-//   margin-top: 18px;
-//   box-shadow: 0px 4.39163px 4.39163px rgba(0, 0, 0, 0.06),
-//     inset 0px -2.19582px 4.39163px #ae7be3,
-//     inset 0px 4.39163px 3.29372px #fbf8ff;
-//   background-color: #ebd8ff;
-// `;
+
 
 export const DefaultAvatar = styled.img`
   margin-left: auto;
@@ -127,6 +117,7 @@ export const FollowBtn = styled.button`
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  
   &:hover,
   &:focus {
     background-color: #5cd3a8;
